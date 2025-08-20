@@ -55,6 +55,7 @@
       "tolerance": 50
     },
     {
+      "alter_id": 0,
       "server": "nontontv.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -422,4 +423,5 @@
     ]
   }
 }
+
 
