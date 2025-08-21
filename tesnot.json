@@ -8,13 +8,7 @@
         ],
         "server": "dns-direct"
       },
-      {
-        "action": "reject",
-        "network": ["udp"],
-        "port": [443],
-        "port_range": []
-      }
-    ],
+      ],
     "servers": [
       {
         "detour": "Auto",
