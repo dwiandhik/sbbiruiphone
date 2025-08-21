@@ -465,7 +465,7 @@
       },
       {
         "domain_suffix": ["telegram.org", "t.me", "telegram.me"],
-        "outbound": "Auto"
+        "outbound": "direct"
       },
       {
         "domain_suffix": ["push.apple.com", "courier.push.apple.com"],
