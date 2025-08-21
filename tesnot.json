@@ -469,7 +469,7 @@
       },
       {
         "domain_suffix": ["push.apple.com", "courier.push.apple.com"],
-        "outbound": "direct"
+        "outbound": "Auto"
       },
       {
         "action": "hijack-dns",
