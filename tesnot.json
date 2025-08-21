@@ -7,7 +7,7 @@
           "any"
         ],
         "server": "dns-direct"
-      },
+      }
       ],
     "servers": [
       {
