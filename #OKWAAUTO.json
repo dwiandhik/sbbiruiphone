@@ -396,6 +396,12 @@
     "rule_set": [],
     "rules": [
       {
+        "outbound": [
+          "any"
+        ],
+        "server": "dns-local"
+      },
+      {
         "domain_suffix": ["whatsapp.com", "whatsapp.net"],
         "outbound": "Auto"
       },
@@ -429,6 +435,7 @@
     ]
   }
 }
+
 
 
 
