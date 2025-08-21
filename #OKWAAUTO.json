@@ -62,8 +62,8 @@
       "tolerance": 50
     },
     {
-      "domain_strategy": "prefer_ipv4",
       "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "nontontv.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -73,6 +73,8 @@
       "tag": "proxy-1"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "nontontv.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": false, "server_name": "sgx.premi.my.id" },
@@ -82,6 +84,8 @@
       "tag": "proxy-2"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "104.17.3.81",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -91,6 +95,8 @@
       "tag": "XL-B1"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "ava.game.naver.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -100,6 +106,8 @@
       "tag": "XL-B2"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "ava.game.naver.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "ava.game.naver.com.sgx.premi.my.id" },
@@ -118,6 +126,8 @@
       "tag": "XL-B4"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "zoomcares.zoom.us",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -127,6 +137,8 @@
       "tag": "XL-B5"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "zoomcares.zoom.us",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -136,6 +148,8 @@
       "tag": "XL-B6"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "partner.zoom.us",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -145,6 +159,8 @@
       "tag": "XL-B7"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "partner.zoom.us",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -154,6 +170,8 @@
       "tag": "XL-B8"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "support.zoom.us",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "support.zoom.us.sgx.premi.my.id" },
@@ -163,6 +181,8 @@
       "tag": "XL-B9"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "support.zoom.us",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "support.zoom.us.sgx.premi.my.id" },
@@ -172,6 +192,8 @@
       "tag": "XL-B10"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "support.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -181,6 +203,8 @@
       "tag": "XL-B11"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "img.email2.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -190,6 +214,8 @@
       "tag": "XL-B12"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "nontontv.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -199,6 +225,8 @@
       "tag": "XL-B13"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "quiz.staging.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -208,6 +236,8 @@
       "tag": "XL-B14"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "img.email3.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -217,6 +247,8 @@
       "tag": "XL-B15"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "quiz.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -226,6 +258,8 @@
       "tag": "XL-B16"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "support.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -235,6 +269,8 @@
       "tag": "XL-B17"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "img.email2.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -244,6 +280,8 @@
       "tag": "XL-B18"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "nontontv.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -253,6 +291,8 @@
       "tag": "XL-B19"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "quiz.staging.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -262,6 +302,8 @@
       "tag": "XL-B20"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "img.email3.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -271,6 +313,8 @@
       "tag": "XL-B21"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "quiz.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -280,6 +324,8 @@
       "tag": "XL-B22"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -289,6 +335,8 @@
       "tag": "XL-B23"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -298,6 +346,8 @@
       "tag": "XL-B24"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "api.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -307,6 +357,8 @@
       "tag": "XL-B25"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "api.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -316,6 +368,8 @@
       "tag": "XL-B26"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "quiz-api.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -325,6 +379,8 @@
       "tag": "XL-B27"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "quiz-api.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -334,6 +390,8 @@
       "tag": "XL-B28"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "secure.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -343,6 +401,8 @@
       "tag": "XL-B29"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "secure.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -352,6 +412,8 @@
       "tag": "XL-B30"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "static-web-prod.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -361,6 +423,8 @@
       "tag": "XL-B31"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "static-web-prod.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -370,6 +434,8 @@
       "tag": "XL-B32"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "www.vidio.com",
       "server_port": 80,
       "tls": { "enabled": false, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -379,6 +445,8 @@
       "tag": "XL-B33"
     },
     {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
       "server": "www.vidio.com",
       "server_port": 443,
       "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
@@ -431,6 +499,7 @@
     ]
   }
 }
+
 
 
 
