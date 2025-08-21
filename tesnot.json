@@ -468,7 +468,12 @@
         "outbound": "Auto"
       },
       {
-        "domain_suffix": ["push.apple.com", "courier.push.apple.com"],
+        "domain_suffix": ["push.apple.com",
+    "courier.push.apple.com",
+    "api.push.apple.com",
+    "api-courier.push.apple.com",
+    "gateway.push.apple.com",
+    "gateway-courier.push.apple.com"],
         "outbound": "Auto"
       },
       {
