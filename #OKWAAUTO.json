@@ -62,6 +62,7 @@
       "tolerance": 50
     },
     {
+      "domain_strategy": "prefer_ipv4",
       "alter_id": 0,
       "server": "nontontv.vidio.com",
       "server_port": 443,
@@ -430,6 +431,7 @@
     ]
   }
 }
+
 
 
 
