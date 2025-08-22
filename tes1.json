@@ -1,0 +1,94 @@
+{
+  "log": {
+    "level": "warn",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-remote",
+        "address": "8.8.8.8",
+        "detour": "proxy"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "direct",
+        "domain_suffix": [
+          "apple.com",
+          "icloud.com",
+          "icloud-content.com",
+          "push.apple.com",
+          "mzstatic.com"
+        ]
+      }
+    ]
+  },
+  "outbounds": [
+    {
+      "alter_id": 0,
+      "domain_strategy": "prefer_ipv4",
+      "packet_encoding": "",
+      "security": "auto",
+      "server": "nontontv.vidio.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sgx.premi.my.id"
+      },
+      "transport": {
+        "headers": {
+          "Host": "sgx.premi.my.id"
+        },
+        "path": "/vmess",
+        "type": "ws"
+      },
+      "uuid": "7c9ab8a9-cad2-4a15-a70c-2935bf35c90f",
+      "type": "vmess",
+      "tag": "proxy-1"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "outbound": "direct",
+        "domain_suffix": [
+          "apple.com",
+          "icloud.com",
+          "icloud-content.com",
+          "push.apple.com",
+          "mzstatic.com"
+        ]
+      },
+      {
+        "outbound": "direct",
+        "ip_cidr": [
+          "17.0.0.0/8"   // Jaringan Apple
+        ]
+      },
+      {
+        "outbound": "proxy",
+        "domain_suffix": [
+          "google.com",
+          "facebook.com",
+          "youtube.com"
+        ]
+      }
+    ],
+    "final": "proxy"
+  }
+}
