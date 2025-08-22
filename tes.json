@@ -52,7 +52,7 @@
       "tag": "Auto",
       "outbounds": [
         "proxy-1",
-        "proxy-2",
+        "proxy-2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "30s",
