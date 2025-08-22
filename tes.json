@@ -51,7 +51,8 @@
       "type": "urltest",
       "tag": "Auto",
       "outbounds": [
-        "proxy"
+        "proxy-1",
+        "proxy-2",
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "30s",
@@ -59,7 +60,19 @@
     },
     {
       "type": "trojan",
-      "tag": "proxy",
+      "tag": "proxy-1",
+      "domain_strategy": "prefer_ipv4",
+      "server": "sgx.premi.my.id",
+      "server_port": 443,
+      "password": "864b35b7-2954-4159-87af-e1c7c41e909b",
+      "tls": {
+        "enabled": true,
+        "server_name": "nontontv.vidio.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "proxy-2",
       "domain_strategy": "prefer_ipv4",
       "server": "sgx.premi.my.id",
       "server_port": 443,
