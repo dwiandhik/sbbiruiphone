@@ -61,6 +61,7 @@
     {
       "type": "trojan",
       "tag": "proxy-1",
+      "domain_strategy": "prefer_ipv4",
       "server": "nontontv.vidio.com",
       "server_port": 443,
       "password": "864b35b7-2954-4159-87af-e1c7c41e909b",
@@ -72,6 +73,7 @@
     {
       "type": "trojan",
       "tag": "proxy-2",
+      "domain_strategy": "prefer_ipv4",
       "server": "nontontv.vidio.com",
       "server_port": 443,
       "password": "864b35b7-2954-4159-87af-e1c7c41e909b",
