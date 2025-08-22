@@ -1,4 +1,4 @@
-{//1
+{
   "dns": {
     "servers": [
       {
@@ -27,7 +27,9 @@
     {
       "type": "urltest",
       "tag": "Auto",
-      "outbounds": ["proxy-1"],
+      "outbounds": [
+        "proxy-1"
+      ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "30s",
       "tolerance": 50
@@ -60,10 +62,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
     }
   ],
   "route": {
@@ -89,7 +87,9 @@
         "outbound": "direct"
       },
       {
-        "protocol": ["bittorrent"],
+        "protocol": [
+          "bittorrent"
+        ],
         "outbound": "block"
       }
     ],
