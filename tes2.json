@@ -4,12 +4,12 @@
       {
         "tag": "dns-direct",
         "address": "1.1.1.1",
-        "detour": "direct"
+        "outbound": "direct"
       },
       {
         "tag": "dns-remote",
         "address": "8.8.8.8",
-        "detour": "proxy-1"
+        "outbound": "vmess-out"
       }
     ]
   },
@@ -25,15 +25,17 @@
   ],
   "outbounds": [
     {
-      "alter_id": 0,
-      "domain_strategy": "prefer_ipv4",
-      "server": "nontontv.vidio.com",
-      "server_port": 443,
-      "tls": { "enabled": true, "insecure": true, "server_name": "sgx.premi.my.id" },
-      "transport": { "headers": { "Host": "sgx.premi.my.id" }, "path": "/vmess", "type": "ws" },
-      "uuid": "7c9ab8a9-cad2-4a15-a70c-2935bf35c90f",
       "type": "vmess",
-      "tag": "proxy-1"
+      "tag": "vmess-out",
+      "server": "your.server.com",
+      "server_port": 443,
+      "uuid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "your.server.com"
+      }
     },
     {
       "type": "direct",
@@ -42,6 +44,10 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
     }
   ],
   "route": {
@@ -70,6 +76,6 @@
       }
     ],
     "auto_detect_interface": true,
-    "final": "proxy-1"
+    "final": "vmess-out"
   }
 }
