@@ -474,7 +474,7 @@
         "outbound": "Auto"
       },
       {
-        "domain_suffix": ["push.apple.com", "courier.push.apple.com"],
+        "domain_suffix": ["api.push-apple.com.akadns.net","api.push.apple.com","push.apple.com", "courier.push.apple.com","icloud.com","apple.com"],
         "outbound": "Auto"
       },
       {
@@ -499,6 +499,7 @@
     ]
   }
 }
+
 
 
 
