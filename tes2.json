@@ -4,7 +4,7 @@
       {
         "tag": "dns-direct",
         "address": "1.1.1.1",
-        "detour": "direct"
+        "detour": "direct" 
       },
       {
         "tag": "dns-remote",
@@ -62,6 +62,10 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
     }
   ],
   "route": {
