@@ -4,12 +4,12 @@
       {
         "tag": "dns-direct",
         "address": "1.1.1.1",
-        "outbound": "direct"
+        "detour": "direct"
       },
       {
         "tag": "dns-remote",
         "address": "8.8.8.8",
-        "outbound": "vmess-out"
+        "detour": "vmess-out"
       }
     ]
   },
@@ -44,10 +44,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
     }
   ],
   "route": {
@@ -64,7 +60,11 @@
       {
         "domain_suffix": [
           "whatsapp.net",
-          "telegram.org"
+          "telegram.org",
+          "line.me",
+          "messenger.com",
+          "facebook.com",
+          "fbcdn.net"
         ],
         "outbound": "direct"
       },
