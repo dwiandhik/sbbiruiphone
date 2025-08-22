@@ -8,12 +8,6 @@
         ],
         "server": "dns-direct"
       },
-      {
-        "action": "reject",
-        "network": ["udp"],
-        "port": [443],
-        "port_range": []
-      }
     ],
     "servers": [
       {
@@ -62,24 +56,24 @@
       "type": "trojan",
       "tag": "proxy-1",
       "domain_strategy": "prefer_ipv4",
-      "server": "nontontv.vidio.com",
+      "server": "sgx.premi.my.id",
       "server_port": 443,
       "password": "864b35b7-2954-4159-87af-e1c7c41e909b",
       "tls": {
         "enabled": true,
-        "server_name": "sgx.premi.my.id"
+        "server_name": "nontontv.vidio.com"
       }
     },
     {
       "type": "trojan",
       "tag": "proxy-2",
       "domain_strategy": "prefer_ipv4",
-      "server": "nontontv.vidio.com",
+      "server": "sgx.premi.my.id",
       "server_port": 443,
       "password": "864b35b7-2954-4159-87af-e1c7c41e909b",
       "tls": {
         "enabled": true,
-        "server_name": "sgx.premi.my.id"
+        "server_name": "nontontv.vidio.com"
       }
     },
     {
