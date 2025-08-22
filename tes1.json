@@ -58,11 +58,13 @@
     },
     {
       "type": "direct",
-      "tag": "direct"
+      "tag": "direct",
+      "override": {}
     },
     {
       "type": "block",
-      "tag": "block"
+      "tag": "block",
+      "override": {}
     }
   ],
   "route": {
@@ -84,8 +86,8 @@
       {
         "outbound": "direct",
         "ip_cidr": [
-          "17.0.0.0/8",      // Jaringan Apple
-          "192.168.0.0/16",  // LAN
+          "17.0.0.0/8",
+          "192.168.0.0/16",
           "10.0.0.0/8",
           "172.16.0.0/12"
         ]
