@@ -7,13 +7,11 @@
     "servers": [
       {
         "tag": "dns-direct",
-        "address": "1.1.1.1",
-        "detour": "direct"
+        "address": "1.1.1.1"
       },
       {
         "tag": "dns-remote",
-        "address": "8.8.8.8",
-        "detour": "proxy-1"
+        "address": "8.8.8.8"
       }
     ],
     "rules": [
@@ -58,13 +56,11 @@
     },
     {
       "type": "direct",
-      "tag": "direct",
-      "override": {}
+      "tag": "direct"
     },
     {
       "type": "block",
-      "tag": "block",
-      "override": {}
+      "tag": "block"
     }
   ],
   "route": {
