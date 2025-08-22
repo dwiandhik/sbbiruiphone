@@ -4,7 +4,7 @@
     "timestamp": true
   },
   "dns": {
-    "server": [
+    "servers": [
       {
         "tag": "dns-direct",
         "address": "1.1.1.1",
