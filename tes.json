@@ -1,0 +1,119 @@
+{
+  "dns": {
+    "independent_cache": true,
+    "rules": [
+      {
+        "outbound": [
+          "any"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "action": "reject",
+        "network": ["udp"],
+        "port": [443],
+        "port_range": []
+      }
+    ],
+    "servers": [
+      {
+        "detour": "Auto",
+        "tag": "dns-remote",
+        "address_resolver": "dns-direct",
+        "address": "https://1.1.1.1/dns-query"
+      },
+      {
+        "tag": "dns-direct",
+        "detour": "direct",
+        "address": "112.215.198.248"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "endpoint_independent_nat": true,
+      "address": ["172.19.0.1/28"],
+      "mtu": 9000,
+      "sniff": true,
+      "auto_route": true,
+      "auto_redirect": false,
+      "sniff_override_destination": false,
+      "stack": "mixed",
+      "tag": "tun-in",
+      "type": "tun"
+    }
+  ],
+  "log": {
+    "level": "info"
+  },
+  "outbounds": [
+    {
+      "type": "urltest",
+      "tag": "Auto",
+      "outbounds": [
+        "proxy"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "30s",
+      "tolerance": 50
+    },
+    {
+      "type": "trojan",
+      "tag": "proxy",
+      "domain_strategy": "prefer_ipv4",
+      "server": "nontontv.vidio.com",
+      "server_port": 443,
+      "password": "864b35b7-2954-4159-87af-e1c7c41e909b",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgx.premi.my.id"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "Auto",
+    "rule_set": [],
+    "rules": [
+            {
+        "domain_suffix": ["whatsapp.com", "whatsapp.net"],
+        "outbound": "Auto"
+      },
+      {
+        "domain_suffix": ["telegram.org", "t.me", "telegram.me"],
+        "outbound": "Auto"
+      },
+      {
+        "domain_suffix": ["api.push-apple.com.akadns.net","api.push.apple.com","push.apple.com", "courier.push.apple.com","icloud.com","apple.com"],
+        "outbound": "Auto"
+      },
+      {
+        "action": "hijack-dns",
+        "port": [53]
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": ["dns"]
+      },
+      {
+        "action": "reject",
+        "network": ["udp"],
+        "port": [443],
+        "port_range": []
+      },
+      {
+        "action": "reject",
+        "ip_cidr": ["224.0.0.0/3", "ff00::/8"],
+        "source_ip_cidr": ["224.0.0.0/3", "ff00::/8"]
+      }
+    ]
+  }
+}
+
+
+
+ 
