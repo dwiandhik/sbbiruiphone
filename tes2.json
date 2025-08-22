@@ -36,14 +36,6 @@
         "enabled": true,
         "server_name": "your.server.com"
       }
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
     }
   ],
   "route": {
